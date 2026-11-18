@@ -4,7 +4,7 @@ import { FaArrowCircleRight, FaEnvelope, FaFacebookF, FaInstagram, FaTwitter } f
 function Footer() {
   return (
     <>
-    <div className='md:grid  grid-cols-3 md:gap-10 bg-black text-white'>
+    <div className='md:grid  grid-cols-3 md:gap-10 bg-black text-white p-5'>
       <div>
       <h4 className='font-bold'>ABOUT US</h4>
       <p className='mt-5 text-justify'>We believe books are more than just pages - they are windows into new worlds, teachers of wisdom, and companions for life. Our journey begin with a passion for storytelling and a mission to make reading accessible, enjoyable , and inspiring for everyone.</p>
