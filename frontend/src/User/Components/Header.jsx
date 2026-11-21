@@ -17,7 +17,7 @@ const [toggle,setToggle]=useState(false)
         <div className='md:flex justify-center items-center hidden'>
           <h1 className='text-3xl font-bold'>Bookstore</h1></div>
         {/* Login */}
-       <div className='md:flex items-center justify-end hidden'> <FaInstagram/>
+       <div className='md:flex items-center justify-end hidden me-3'> <FaInstagram/>
        <FaTwitter/>
         <FaFacebookSquare/>
         <Link to={'/login'} className='flex justify-center items-center ms-5 border rounded px-3 py-2 hover:bg-black hover:text-white'> <FaUser className='me-1'/>Login</Link>

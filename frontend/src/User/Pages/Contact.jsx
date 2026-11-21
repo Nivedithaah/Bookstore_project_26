@@ -72,8 +72,7 @@ function Contact() {
                 <input
                   type="text"
                   placeholder='Name'
-                  className='bg-white w-full p-2'
-                />
+                  className='bg-white w-full p-2' />
               </div>
 
               <div className='mb-5 mt-10'>
