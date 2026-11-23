@@ -3,6 +3,7 @@ import Header from '../Components/Header'
 import Footer from '../../Components/Footer'
 import { FaCircleCheck } from 'react-icons/fa6'
 import Edit from '../Components/Edit'
+import UploadBooks from '../Components/UploadBooks'
 
 function Profile() {
 
@@ -30,7 +31,7 @@ function Profile() {
         <p onClick={()=>setCurrentTab(2)} className={currenttab==2 ? 'p-4 border-gray-200 border-l border-t border-r rounded cursor-pointer': 'p-4 border-gray-200 border-b rounded cursor-pointer'}>Upload Book Status</p>
         <p onClick={()=>setCurrentTab(3)} className={currenttab==3 ? 'p-4 border-gray-200 border-l border-t border-r rounded cursor-pointer': 'p-4 border-gray-200 border-b rounded cursor-pointer'}>Purchase History</p>
        </div>
-       {currenttab==1 && <div>Upload books</div>}
+       {currenttab==1 && <div><UploadBooks/></div>}
        {currenttab==2 && <div>upload book status</div>}
        {currenttab==3 && <div>Purchase History</div>}
 
